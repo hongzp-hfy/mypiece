@@ -1,0 +1,20 @@
+{
+    "name": "hongzp/mypiece",
+    "description": "composer test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hongzp-hfy",
+            "email": "1162859311@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php":">=5.3"
+    },
+    "autoload": {
+        "psr-4":{
+            "Flower\\":"src/"
+        }
+    }
+}
